@@ -25,6 +25,8 @@ class Game:
         redo.pack()
         refresh = Button(frame, text="Refresh", font="courier 12")
         refresh.pack()
+        faq = Button(frame, text="Frequently Asked Questions", font="courier 12")
+        faq.pack()
         title = Label(frame, text="Typing Test", font="courier 36 bold")
         title.pack()
         length = Label(frame, text="Length (in minutes):", font="courier 20")
